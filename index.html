@@ -30,11 +30,23 @@
             <a href="#about-us">About Us</a>
           </li>
           <li>
+            <div class="cart-icon" id="cart-container">
+              <img src="assets/cart.svg" alt="cart">
+              <span id="cart-count">0</span>
+            </div>
+          </li>
+          <li>
             <img src="assets/search.svg" alt="search" />
           </li>
         </ul>
 
         <ul class="header__menu-mobile" data-aos="fade-down">
+          <li>
+            <div id="cart-container">
+              <img src="assets/cart.svg" alt="cart">
+              <span id="cart-count">0</span>
+            </div>
+          </li>
           <li>
             <img src="assets/menu.svg" alt="menu" />
           </li>
@@ -64,8 +76,8 @@
           <p>Feel the taste of the most popular Japanese food from anywhere and anytime.</p>
 
           <div class="hero-content__buttons">
-            <button class="hero-content__order-button">Order Now</button>
-            <button class="hero-content__play-button">
+            <button class="hero-content__order-button" id="orderNow">Order Now</button>
+            <button class="hero-content__play-button" >
               <img src="assets/play-circle.svg" alt="play" />
               How to Order
             </button>
@@ -271,7 +283,7 @@
   
           <h3 class="sushi__title">Japanese Drinks
           </h3>
-          <p class="sushi__description">Feel the taste of the most delicious Japense drinks here.
+          <p class="sushi__description">Feel the taste of the most delicious Japanese drinks here.
           </p>
   
           <ul class="trending__list flex-between">
@@ -319,7 +331,7 @@
 
     <section class="subscription flex-center" id="services">
       <h2 data-aos="flip-down">
-        Get offers stright <br />
+        Get offers straight <br />
         to your inbox
       </h2>
       <p data-aos="fade-up">Sign up for the Sushiman newsletter</p>
